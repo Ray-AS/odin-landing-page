@@ -5,6 +5,8 @@ body {
     flex-direction: column;
 }
 
+
+/* Section One */
 .section-one {
     background-color: #1F2937;
 }
@@ -37,10 +39,6 @@ body {
     font-size: 48px;
 }
 
-.caption {
-
-}
-
 .button-1 {
     background-color: #3882F6;
     color: white;
@@ -70,10 +68,8 @@ body {
     color: #F9FAF8;
 }
 
-.subtitle, .subtitle-2 {
-    font-weight: bolder;
-}
 
+/* Section Two */
 .section-two {
     margin-top: 35px;
 }
@@ -113,6 +109,32 @@ body {
     max-width: 150px;
 }
 
+
+/* Section Three */
+.section-three {
+    background-color: #E5E7EB;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937
+}
+
+.credit {
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
+}
+
+/* Universal */
 ul {
     list-style: none;
     margin: 0;
@@ -122,4 +144,8 @@ ul {
 a {
     all: unset;
     text-decoration: none;
+}
+
+.subtitle, .subtitle-2 {
+    font-weight: bolder;
 }
